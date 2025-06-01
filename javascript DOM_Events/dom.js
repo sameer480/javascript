@@ -121,7 +121,7 @@ document.addEventListener("DOMContentLoaded", function() {
 //11. Dynamic Element Creation
 //Create an HTML page with a button. Write JavaScript code to use document.createElement to create a new <p> element with text "New Paragraph" and append it to the <body> when the button is clicked. 
 document.addEventListener("DOMContentLoaded", function() {
-    const button = document.querySelector("button");
+    const button = document.querySelector(".button");
     if (button) {
         button.addEventListener("click", function() {
             const newParagraph = document.createElement("p");// creating a new paragraph element
